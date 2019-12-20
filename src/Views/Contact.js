@@ -6,6 +6,7 @@ import {useAlert} from 'react-alert'
 export default function Contact() {
   
   const [contact, setContact] = useState({});
+
   const alert = useAlert()
   const handleSubmit = async (e) =>{
       e.preventDefault()
@@ -66,7 +67,7 @@ export default function Contact() {
                   </div>
                   <div className="col-md-6 button">
                     <button className="btn btn-primary btn-block" type="submit">
-                      Hire Me
+                      Hire Mi
                     </button>
                   </div>
                 </div>
