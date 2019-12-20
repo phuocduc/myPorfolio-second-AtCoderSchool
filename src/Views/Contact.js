@@ -8,7 +8,6 @@ export default function Contact() {
   const [contact, setContact] = useState({});
   const alert = useAlert()
   const handleSubmit = async (e) =>{
-      console.log(process.env.REACT_APP_API_URL,'sssss')
       e.preventDefault()
       const response = await fetch(`${process.env.REACT_APP_API_URL}/contact_porfolio`,{
         method:"POST",
