@@ -10006,3 +10006,10 @@ a.text-dark:hover {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px)
+{
+  .text-product{
+    text-align: center;
+  }
+}
