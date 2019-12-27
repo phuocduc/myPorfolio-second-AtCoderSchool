@@ -10,14 +10,18 @@ import weather from "../assets/img/products/weather.JPG";
 import Movies from "../assets/img/home_page/react_movies.png";
 import Todolist from "../assets/img/home_page/react_todolist.png";
 import mountain_2 from "../assets/img/home_page/climb_mountain_2.jpg";
-import gold_miner from '../assets/img/products/gold_miner.jpg'
+import gold_miner from "../assets/img/products/gold_miner.jpg";
+import youtubi from "../assets/img/home_page/Youtubi.png";
 
 export default function Products() {
   return (
     <div>
       <Navibar />
-      <div className="img_title_product"  style={{backgroundImage: `url(${mountain_2})`}}>
-      <div className="wrap-text-product">
+      <div
+        className="img_title_product"
+        style={{ backgroundImage: `url(${mountain_2})` }}
+      >
+        <div className="wrap-text-product">
           <h1 className="text-product">Personal Projects</h1>
         </div>
       </div>
@@ -76,20 +80,19 @@ export default function Products() {
               </div>
               <div className="col-md-6 col-lg-4">
                 <div className="card border-0">
-                  <a href="https://todolist-dnp.netlify.com">
+                  <a href="https://youtubi.netlify.com">
                     <img
                       className="card-img-top scale-on-hover"
-                      src={Todolist}
+                      src={youtubi}
                       alt="Card Second"
                     />
                   </a>
                   <div className="card-body">
-                    <h6>To Do List</h6>
+                    <h6>Youtube Share</h6>
                     <button
                       value="Live Website"
                       onClick={() =>
-                        (window.location.href =
-                          "https://todolist-dnp.netlify.com")
+                        (window.location.href = "https://youtubi.netlify.com")
                       }
                     >
                       Live Website
@@ -205,6 +208,29 @@ export default function Products() {
                       onClick={() =>
                         (window.location.href =
                           "https://rockpaperscissor-dnp.netlify.com")
+                      }
+                    >
+                      Live Website
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4">
+                <div className="card border-0">
+                  <a href="https://todolist-dnp.netlify.com">
+                    <img
+                      className="card-img-top scale-on-hover"
+                      src={Todolist}
+                      alt="Card sixth"
+                    />
+                  </a>
+                  <div className="card-body">
+                    <h6>To Do List</h6>
+                    <button
+                      value="Live Website"
+                      onClick={() =>
+                        (window.location.href =
+                          "https://todolist-dnp.netlify.com")
                       }
                     >
                       Live Website

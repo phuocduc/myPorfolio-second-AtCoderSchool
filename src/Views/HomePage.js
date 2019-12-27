@@ -5,8 +5,8 @@ import Footer from '../Components/Footer'
 import Avatar from '../assets/img/home_page/avatar.jpg'
 import vntour from '../assets/img/home_page/Big_Project_1.png'
 import Movies from '../assets/img/home_page/react_movies.png'
-import Todolist from '../assets/img/home_page/react_todolist.png'
 import imgLaptop from '../assets/img/home_page/image6.png'
+import youtubi from '../assets/img/home_page/Youtubi.png'
 import '../assets/fonts/ionicons.min.css'
 
     
@@ -30,7 +30,7 @@ export default function HomePage() {
                     <div className="row no-gutters">
                         <div className="col-md-6 col-lg-4 item zoom-on-hover p-2"><a href="https://vietnamtour.netlify.com"><img className="img-fluid image" src={vntour} alt="Viet Nam Tour"/></a></div>
                         <div className="col-md-6 col-lg-4 item zoom-on-hover p-2"><a href="https://movies-dnp.netlify.com"><img className="img-fluid image" src={Movies} alt="Movies"/></a></div>
-                        <div className="col-md-6 col-lg-4 item zoom-on-hover p-2"><a href="https://todolist-dnp.netlify.com"><img className="img-fluid image" src={Todolist} alt="To Do List"/></a></div>
+                        <div className="col-md-6 col-lg-4 item zoom-on-hover p-2"><a href="https://youtubi.netlify.com"><img className="img-fluid image" src={youtubi} alt="Youtube Share"/></a></div>
                     </div>
                 </div>
             </section>
